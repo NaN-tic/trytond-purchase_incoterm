@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:incoterm,purchase_place_required:"
+msgid "Purchase place required"
+msgstr "Lloc requerit compra"
+
+msgctxt "field:party.party,purchase_incoterm:"
+msgid "Purchase Incoterm"
+msgstr "Incoterm de compra"
+
+msgctxt "field:party.party,purchase_incoterm_place:"
+msgid "Purchase Incoterm Name Place"
+msgstr "Nom del lloc incoterm de compra"
+
+msgctxt "field:party.party,purchase_place_required:"
+msgid "Place Required"
+msgstr "Lloc requerit"
+
+msgctxt "field:party.party.incoterm,purchase_incoterm:"
+msgid "Purchase Incoterm"
+msgstr "Incoterm de compra"
+
+msgctxt "field:party.party.incoterm,purchase_incoterm_place:"
+msgid "Purchase Incoterm Name Place"
+msgstr "Nom del lloc incoterm de compra"
+
+msgctxt "field:purchase.purchase,incoterm:"
+msgid "Incoterm"
+msgstr "Incoterm"
+
+msgctxt "field:purchase.purchase,incoterm_place:"
+msgid "Incoterm Name Place"
+msgstr "Nom del lloc incoterm"
+
+msgctxt "help:incoterm,purchase_place_required:"
+msgid "Make place required for this incoterm (purchase)"
+msgstr "Fer el lloc requerit per a aquest incoterm (compra)"
