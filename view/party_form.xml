@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath expr="/form/notebook/page[@id='incoterm']/field[@name='incoterm_place']"
+      position="after">
+        <label name="purchase_incoterm"/>
+        <field name="purchase_incoterm"/>
+        <label name="purchase_incoterm_place"/>
+        <field name="purchase_incoterm_place"/>
+    </xpath>
+</data>
