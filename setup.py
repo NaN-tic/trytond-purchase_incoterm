@@ -9,7 +9,9 @@ from configparser import ConfigParser
 
 MODULE = 'purchase_incoterm'
 PREFIX = 'nantic'
-MODULE2PREFIX = {}
+MODULE2PREFIX = {
+    'incoterm': 'nantic',
+    }
 
 
 def read(fname):
