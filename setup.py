@@ -7,7 +7,7 @@ import os
 import io
 from configparser import ConfigParser
 
-MODULE = 'incoterm'
+MODULE = 'purchase_incoterm'
 PREFIX = 'nantic'
 MODULE2PREFIX = {}
 
