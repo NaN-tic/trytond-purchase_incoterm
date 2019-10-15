@@ -4,10 +4,10 @@ from trytond.model import fields
 from trytond.pool import PoolMeta
 from trytond.pyson import Bool, Eval
 
-__all__ = ['purchase']
+__all__ = ['Purchase']
 
 
-class purchase(metaclass=PoolMeta):
+class Purchase(metaclass=PoolMeta):
     __name__ = 'purchase.purchase'
     incoterm = fields.Many2One('incoterm', 'Incoterm',
         states={
@@ -23,7 +23,7 @@ class purchase(metaclass=PoolMeta):
         depends=['state', 'incoterm'])
 
     def on_change_party(self):
-        super(purchase, self).on_change_party()
+        super(Purchase, self).on_change_party()
 
         self.incoterm = None
         self.incoterm_place = None
