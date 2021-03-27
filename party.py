@@ -2,13 +2,11 @@
 # this repository contains the full copyright notices and license terms.
 from trytond import backend
 from trytond.pool import PoolMeta, Pool
-from trytond.model import fields, ModelSQL
+from trytond.model import fields
 from trytond.pyson import Eval, Bool
 from trytond.tools.multivalue import migrate_property
 from trytond.modules.company.model import (
     CompanyMultiValueMixin, CompanyValueMixin)
-
-__all__ = ['Party', 'PartyIncoterm']
 
 purchase_incoterm = fields.Many2One('incoterm', 'Purchase Incoterm')
 purchase_incoterm_place = fields.Char('Purchase Incoterm Name Place',

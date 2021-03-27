@@ -3,8 +3,6 @@
 from trytond.model import fields
 from trytond.pool import PoolMeta
 
-__all__ = ['PurchaseRequest', 'CreatePurchase']
-
 
 class PurchaseRequest(metaclass=PoolMeta):
     __name__ = 'purchase.request'
