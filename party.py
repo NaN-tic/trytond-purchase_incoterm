@@ -45,7 +45,7 @@ class Party(CompanyMultiValueMixin, metaclass=PoolMeta):
 class PartyIncoterm(CompanyValueMixin, metaclass=PoolMeta):
     __name__ = 'party.party.incoterm'
     party = fields.Many2One(
-        'party.party', "Party", ondelete='CASCADE', select=True, context={
+        'party.party', "Party", ondelete='CASCADE', context={
             'company': Eval('company'),
         }, depends=['company'])
     purchase_incoterm = purchase_incoterm
